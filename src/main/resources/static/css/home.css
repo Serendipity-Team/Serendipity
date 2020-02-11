@@ -1,0 +1,141 @@
+body {
+    font-family: 楷体, serif;
+    background-color: #999999;
+}
+
+.main_color1 {
+    color: #5FD9CD;
+}
+
+.main_color2 {
+    color: #EAF786;
+}
+
+.main_color3 {
+    color: #FFB5A1;
+}
+
+.main_color4 {
+    color: #B8FFB8;
+}
+
+.main_color5 {
+    color: #B8F4FF;
+}
+
+/* 头部 */
+header {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+#nav {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#nav-list {
+    text-align: right;
+    line-height: 80px;
+    font-size: 23px;
+}
+
+#nav-list a {
+    color: #FFFFFF;
+}
+
+#slogan {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 200px;
+    text-align: center;
+}
+
+#slogan h1{
+    font-size: 4.5em;
+}
+#slogan strong{
+    color: #5FD9CD;
+    font-size: 1.4em;
+}
+
+
+#toSection2 {
+    margin-top: 50px;
+}
+
+/* 中间内容 */
+.immobile_img {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.img11 {
+    background-image: url(../images/home/11.jpg);
+}
+
+.img2 {
+    background-image: url(../images/home/2.jpg);
+}
+
+.img3 {
+    background-image: url(../images/home/3.jpg);
+}
+
+.img4 {
+    background-image: url(../images/home/4.jpg);
+}
+
+.img5 {
+    background-image: url(../images/home/5.jpg);
+}
+
+.img6 {
+    background-image: url(../images/home/4.jpg);
+}
+
+.img12 {
+    background-image: url(../images/home/12.jpg);
+}
+
+.img13 {
+    background-image: url(../images/home/13.jpg);
+}
+
+.img14 {
+    background-image: url(../images/home/14.jpg);
+}
+
+.aSpan{
+    width: 200px;
+    height: 5px;
+    background-color: #B8F4FF;
+    margin: 10px auto;
+}
+
+/* context1 */
+#context1 {
+    color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*回顶部*/
+#toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

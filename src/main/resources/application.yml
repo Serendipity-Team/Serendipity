@@ -7,9 +7,9 @@ spring:
     name: Serendipity
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.101.209.223:3306/Serendipity?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: root
-    password: 051564
+    url: jdbc:mysql://47.101.209.223:3306/Serendipity?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true
+    username: wyj
+    password: "05156420"
   thymeleaf:
     cache: false
   redis:
@@ -29,3 +29,7 @@ spring:
       enabled: true
       additional-paths: src/main
       exclude: static/jar/**
+mybatis:
+  configuration:
+    call-setters-on-nulls: true
+    map-underscore-to-camel-case: true
